@@ -1,5 +1,6 @@
 ---
 layout: home
+title:
 ---
 
 # **Decoding The Deep을 소개합니다**
