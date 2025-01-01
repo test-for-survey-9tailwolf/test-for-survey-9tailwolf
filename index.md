@@ -4,7 +4,7 @@ title:
 ---
 
 # **Decoding The Deep을 소개합니다**
-`Decoding The Deep`은 2025년도 [GIST](https://www.gist.ac.kr/kr/main.html) 겨울학기 딥러닝 세미나 프로그램입니다. 기초보다 조금 더 넓고 깊은 내용의 딥러닝 지식을 다루고 배우는 것을 목표로 삼고 있습니다. 본 세미나는 아래와 같은 목표를 갖고 계신 분에게 적합합니다.
+`Decoding The Deep`은 [Google Developer Groups on Campus](https://gdg.community.dev/gdg-on-campus-gwangju-institute-of-science-and-technology-gwangju-south-korea/)에서 주관하는 2025년도 [GIST](https://www.gist.ac.kr/kr/main.html) 겨울학기 딥러닝 세미나 프로그램입니다. 기초보다 조금 더 넓고 깊은 내용의 딥러닝 지식을 다루고 배우는 것을 목표로 삼고 있습니다. 본 세미나는 아래와 같은 목표를 갖고 계신 분에게 적합합니다.
 
 - 딥러닝에 대한 [기초적인 지식](./#요구되는-사전-지식)이 있지만, 앞으로 **무엇을 공부할 지** 막막한 사람
 - 연구실 인턴이나 대학원 진학을 하고 싶지만 **나의 진로**를 잘 파악하지 못한 사람
