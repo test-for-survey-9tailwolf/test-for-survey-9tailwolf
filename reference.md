@@ -4,4 +4,7 @@ title: Reference
 permalink: /reference/
 ---
 
-도움될만한 자료를 정리하면 좋을 것 같습니다 !
+- [The Principles of Deep Learning Theory](https://deeplearningtheory.com)
+- [Natural Language Processing with Deep Learning](https://web.stanford.edu/class/cs224n/)
+- [Deep Learning for Computer Vision](https://cs231n.stanford.edu)
+- [Deep Reinforcement Learning](https://rail.eecs.berkeley.edu/deeprlcourse/)

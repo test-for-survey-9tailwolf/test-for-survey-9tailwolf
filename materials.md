@@ -4,32 +4,43 @@ title: Materials
 permalink: /materials/
 ---
 
-이것은 수업때 사용할 자료를 모아두는 페이지입니다. 논문이나 슬라이드, 실습코드 등을 업로드하면 될 것 같아요 !
+세미나에서 사용하는 프리젠테이션 파일, 참조 논문, 실습 코드 등 세미나 자료들을 정리한 것입니다.
 
 #### 기초 신경망 복습
-- [Slide](google-slide)
-- [Deep Learning in Neural Networks: An Overview](https://arxiv.org/abs/1404.7828)
+- [Slide]()
+- [Exploring Generalization in Deep Learning](https://arxiv.org/abs/1706.08947)
+- [Deep Learning and the Information Bottleneck Principle](https://arxiv.org/abs/1503.02406)
 
 #### 신경망 학습 전략
-- [Slide](google-slide)
-- [Deep Learning in Neural Networks: An Overview](https://arxiv.org/abs/1404.7828)
+- [Slide]()
+- [A Simple Framework for Contrastive Learning of Visual Representations](https://arxiv.org/abs/2002.05709)
+- [Adam: A Method for Stochastic Optimization](https://arxiv.org/abs/1412.6980)
 
 #### 신경망 모델링 기법
-- [Slide](google-slide)
-- [Deep Learning in Neural Networks: An Overview](https://arxiv.org/abs/1404.7828)
+- [Slide]()
+- [Batch Normalization: Accelerating Deep Network Training by Reducing Internal Covariate Shift](https://arxiv.org/abs/1502.03167)
+- [Layer Normalization](https://arxiv.org/abs/1607.06450)
+- [Dropout: A Simple Way to Prevent Neural Networks from Overfitting](https://jmlr.org/papers/v15/srivastava14a.html)
 
 #### 자연어 처리 1
-- [Slide](google-slide)
-- [Deep Learning in Neural Networks: An Overview](https://arxiv.org/abs/1404.7828)
+- [Slide]()
+- [Efficient Estimation of Word Representations in Vector Space](https://arxiv.org/abs/1301.3781)
+- [GloVe: Global Vectors for Word Representation](https://aclanthology.org/D14-1162/)
+- [Neural Machine Translation by Jointly Learning to Align and Translate](https://arxiv.org/pdf/1409.0473)
+- [Sequence to Sequence Learning with Neural Networks](https://arxiv.org/abs/1409.3215)
 
 #### 자연어 처리 2
-- [Slide](google-slide)
-- [Deep Learning in Neural Networks: An Overview](https://arxiv.org/abs/1404.7828)
+- [Slide]()
+- [Attention Is All You Need](https://arxiv.org/abs/1706.03762)
+- [BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding](https://arxiv.org/abs/1810.04805)
+- [Improving Language Understanding by Generative Pre-Training](https://cdn.openai.com/research-covers/language-unsupervised/language_understanding_paper.pdf)
 
 #### 강화학습
-- [Slide](google-slide)
-- [Deep Learning in Neural Networks: An Overview](https://arxiv.org/abs/1404.7828)
+- [Slide]()
+- [Playing Atari with Deep Reinforcement Learning](https://arxiv.org/abs/1312.5602)
+- [Proximal Policy Optimization Algorithms](https://arxiv.org/abs/1707.06347)
 
 #### 조합 최적화 특강
-- [Slide](google-slide)
-- [Deep Learning in Neural Networks: An Overview](https://arxiv.org/abs/1404.7828)
+- [Slide]()
+- [Attention, Learn to Solve Routing Problems!](https://arxiv.org/abs/1803.08475)
+- [POMO: Policy Optimization with Multiple Optima for Reinforcement Learning](https://arxiv.org/abs/2010.16011)
