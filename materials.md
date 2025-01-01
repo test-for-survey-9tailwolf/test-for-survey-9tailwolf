@@ -44,3 +44,25 @@ permalink: /materials/
 - [Slide]()
 - [Attention, Learn to Solve Routing Problems!](https://arxiv.org/abs/1803.08475)
 - [POMO: Policy Optimization with Multiple Optima for Reinforcement Learning](https://arxiv.org/abs/2010.16011)
+
+#### 생성모델의 이론적 이해
+- [Slide]()
+
+#### 생성모델의 응용과 최신 연구동향
+- [Slide]()
+
+#### 딥러닝 기반 추천 시스템의 기초
+- [Slide]()
+
+#### 딥러닝 추천 시스템의 고급 기법
+- [Slide]()
+
+#### Explainable AI
+- [Slide]()
+
+#### 최신 Explainable AI 기법과 연구 동향
+- [Slide]()
+
+#### LLM Fine-tuning 특별 세미나
+- [Slide]()
+
