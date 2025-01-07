@@ -12,7 +12,7 @@ permalink: /materials/
 - [Deep Learning and the Information Bottleneck Principle](https://arxiv.org/abs/1503.02406)
 
 #### 신경망 학습 전략
-- [Slide]()
+- [Slide](https://docs.google.com/presentation/d/1RFApOltDkGXEAuGAjMLkRqVFH4AresBF9Z1N2msPHcQ/edit?usp=sharing)
 - [A Simple Framework for Contrastive Learning of Visual Representations](https://arxiv.org/abs/2002.05709)
 - [Adam: A Method for Stochastic Optimization](https://arxiv.org/abs/1412.6980)
 
