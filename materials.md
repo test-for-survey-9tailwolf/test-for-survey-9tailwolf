@@ -22,20 +22,20 @@ permalink: /materials/
 - [Layer Normalization](https://arxiv.org/abs/1607.06450)
 - [Dropout: A Simple Way to Prevent Neural Networks from Overfitting](https://jmlr.org/papers/v15/srivastava14a.html)
 
-#### 자연어 처리 1
+#### 자연어 처리 기초 1
 - [Slide]()
 - [Efficient Estimation of Word Representations in Vector Space](https://arxiv.org/abs/1301.3781)
 - [GloVe: Global Vectors for Word Representation](https://aclanthology.org/D14-1162/)
 - [Neural Machine Translation by Jointly Learning to Align and Translate](https://arxiv.org/pdf/1409.0473)
 - [Sequence to Sequence Learning with Neural Networks](https://arxiv.org/abs/1409.3215)
 
-#### 자연어 처리 2
+#### 자연어 처리 기초 2
 - [Slide]()
 - [Attention Is All You Need](https://arxiv.org/abs/1706.03762)
 - [BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding](https://arxiv.org/abs/1810.04805)
 - [Improving Language Understanding by Generative Pre-Training](https://cdn.openai.com/research-covers/language-unsupervised/language_understanding_paper.pdf)
 
-#### 강화학습
+#### 강화학습 기초
 - [Slide]()
 - [Playing Atari with Deep Reinforcement Learning](https://arxiv.org/abs/1312.5602)
 - [Proximal Policy Optimization Algorithms](https://arxiv.org/abs/1707.06347)
