@@ -17,7 +17,8 @@ permalink: /materials/
 - [Adam: A Method for Stochastic Optimization](https://arxiv.org/abs/1412.6980)
 
 #### 신경망 모델링 기법
-- [Slide]()
+- [Slide](https://docs.google.com/presentation/d/1d756Z66LHRBH1w-k6KefPfMRW3_8L0lzjBk0qLciw3o/edit?usp=sharing)
+- [Code](https://colab.research.google.com/drive/1zp-T6O0COz4oodmlHCntcz2tLh9qjMAW?usp=sharing)
 - [Batch Normalization: Accelerating Deep Network Training by Reducing Internal Covariate Shift](https://arxiv.org/abs/1502.03167)
 - [Layer Normalization](https://arxiv.org/abs/1607.06450)
 - [Dropout: A Simple Way to Prevent Neural Networks from Overfitting](https://jmlr.org/papers/v15/srivastava14a.html)

@@ -12,7 +12,7 @@ permalink: /schedule/
 |---|------|-------|---------|
 | 1  | 01.06  | [기초 신경망 복습](/materials/#기초-신경망-복습) | Computational Learning Theory|
 | 2  | 01.08  | [신경망 학습 전략](/materials/#신경망-학습-전략) | Loss Function, Optimizer |
-| 3  | 01.13  | [신경망 모델링 기법](/materials/#신경망-모델링-기법) | Normalization, Dropout, Hyperparameter |
+| 3  | 01.13  | [신경망 모델링 기법](/materials/#신경망-모델링-기법) | Normalization, Dropout |
 | 4  | 01.15  | [자연어 처리 기초 1](/materials/#자연어-처리-기초-1) | LSTM, GRU, Seq2Seq, Attention |
 | 5  | 01.20  | [자연어 처리 기초 2](/materials/#자연어-처리-기초-2) | Transformer, BERT, GPT |
 | 6  | 01.22  | [강화학습 기초](/materials/#강화학습-기초) | TD, DeepQ, PPO |
