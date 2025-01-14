@@ -24,11 +24,11 @@ permalink: /materials/
 - [Dropout: A Simple Way to Prevent Neural Networks from Overfitting](https://jmlr.org/papers/v15/srivastava14a.html)
 
 #### 자연어 처리 기초 1
-- [Slide]()
+- [Slide](https://docs.google.com/presentation/d/1OMBVAQyOdxH92TQBExLHIGbYqHzeA65gU8pPepFgf2Y/edit?usp=sharing)
 - [Efficient Estimation of Word Representations in Vector Space](https://arxiv.org/abs/1301.3781)
-- [GloVe: Global Vectors for Word Representation](https://aclanthology.org/D14-1162/)
-- [Neural Machine Translation by Jointly Learning to Align and Translate](https://arxiv.org/pdf/1409.0473)
+- [Empirical Evaluation of Gated Recurrent Neural Networks on Sequence Modeling](https://arxiv.org/abs/1412.3555)
 - [Sequence to Sequence Learning with Neural Networks](https://arxiv.org/abs/1409.3215)
+- [Neural Machine Translation by Jointly Learning to Align and Translate](https://arxiv.org/pdf/1409.0473)
 
 #### 자연어 처리 기초 2
 - [Slide]()
