@@ -31,7 +31,7 @@ permalink: /materials/
 - [Neural Machine Translation by Jointly Learning to Align and Translate](https://arxiv.org/pdf/1409.0473)
 
 #### 자연어 처리 기초 2
-- [Slide]()
+- [Slide](https://docs.google.com/presentation/d/1IG_zyKl5JAqvI42fZu3cDH8bJ17xw69WuB3Wi4dwSuQ/edit?usp=sharing)
 - [Attention Is All You Need](https://arxiv.org/abs/1706.03762)
 - [BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding](https://arxiv.org/abs/1810.04805)
 - [Improving Language Understanding by Generative Pre-Training](https://cdn.openai.com/research-covers/language-unsupervised/language_understanding_paper.pdf)
