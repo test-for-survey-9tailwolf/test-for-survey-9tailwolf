@@ -15,8 +15,8 @@ permalink: /schedule/
 | 3  | 01.13  | [신경망 모델링 기법](/materials/#신경망-모델링-기법) | Normalization, Dropout |
 | 4  | 01.15  | [자연어 처리 기초 1](/materials/#자연어-처리-기초-1) | LSTM, GRU, Seq2Seq, Attention |
 | 5  | 01.20  | [자연어 처리 기초 2](/materials/#자연어-처리-기초-2) | Transformer, BERT, GPT |
-| 6  | 01.22  | [강화학습 기초](/materials/#강화학습-기초) | TD, DeepQ, PPO |
-| 7  | 01.27  | [조합 최적화 특강](/materials/#조합-최적화-특강) | PG, AC, TSP, POMO |
+| 6  | 01.22  | [강화학습 기초](/materials/#강화학습-기초) | TD, Q-learning, PG |
+| 7  | 01.27  | [조합 최적화 특강](/materials/#조합-최적화-특강) | PPO, AC, TSP, POMO |
 | 8  | 02.03  | [생성모델의 이론적 이해](/materials/#생성모델의-이론적-이해) | ?? | 
 | 9  | 02.05  | [생성모델의 응용과 최신 연구동향](/materials/#생성모델의-응용과-최신-연구동향) | ?? |
 | 10 | 02.10  | [딥러닝 기반 추천 시스템의 기초](/materials/#딥러닝-기반-추천-시스템의-기초) | ?? |
