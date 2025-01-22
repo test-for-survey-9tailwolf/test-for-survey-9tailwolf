@@ -37,12 +37,12 @@ permalink: /materials/
 - [Improving Language Understanding by Generative Pre-Training](https://cdn.openai.com/research-covers/language-unsupervised/language_understanding_paper.pdf)
 
 #### 강화학습 기초
-- [Slide]()
+- [Slide](https://docs.google.com/presentation/d/1KLDRMoEyCZAsMsMRrZ5qcrTA8MPdluoOxpf6JM866p4/edit?usp=sharing)
 - [Playing Atari with Deep Reinforcement Learning](https://arxiv.org/abs/1312.5602)
-- [Proximal Policy Optimization Algorithms](https://arxiv.org/abs/1707.06347)
 
 #### 조합 최적화 특강
 - [Slide]()
+- [Proximal Policy Optimization Algorithms](https://arxiv.org/abs/1707.06347)
 - [Attention, Learn to Solve Routing Problems!](https://arxiv.org/abs/1803.08475)
 - [POMO: Policy Optimization with Multiple Optima for Reinforcement Learning](https://arxiv.org/abs/2010.16011)
 
