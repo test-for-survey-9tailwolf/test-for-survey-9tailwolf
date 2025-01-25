@@ -41,10 +41,11 @@ permalink: /materials/
 - [Playing Atari with Deep Reinforcement Learning](https://arxiv.org/abs/1312.5602)
 
 #### 조합 최적화 특강
-- [Slide]()
+- [Video](https://youtu.be/0Xrq4K2N92g)
+- [Slide](https://docs.google.com/presentation/d/17Ggv_DzQfaxJFOeQSlEGXKIXo-q3a1du35jiVhwg-2A/edit?usp=sharing)
 - [Proximal Policy Optimization Algorithms](https://arxiv.org/abs/1707.06347)
 - [Attention, Learn to Solve Routing Problems!](https://arxiv.org/abs/1803.08475)
-- [POMO: Policy Optimization with Multiple Optima for Reinforcement Learning](https://arxiv.org/abs/2010.16011)
+- [POMO: Policy Optimization with Multiple Optima for Reinforcement Learning](https://arxiv.org/abs/2010.16011) 
 
 #### 생성모델의 이론적 이해
 - [Slide]()
