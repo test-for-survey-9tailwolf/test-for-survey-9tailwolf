@@ -47,13 +47,16 @@ permalink: /materials/
 - [Attention, Learn to Solve Routing Problems!](https://arxiv.org/abs/1803.08475)
 - [POMO: Policy Optimization with Multiple Optima for Reinforcement Learning](https://arxiv.org/abs/2010.16011) 
 
-#### 생성모델의 이론적 이해
-- [Slide]()
+#### 생성모델의 이론적 이해 (GMM to VAE)
+- [Slide](https://drive.google.com/file/d/1zjuMDObLTxCkNDrVIgeze8AKO9j6sb59/view?usp=sharing)
+- [Auto-Encoding Variational Bayes](https://arxiv.org/abs/1312.6114)
 
-#### 생성모델의 응용과 최신 연구동향
-- [Slide]()
+#### 생성모델의 응용과 연구동향 (VAE to Diffusion) 
+- [Slide](https://drive.google.com/file/d/19I9bMtpFXCOGlRTnabfuLnxNgdiWcoJ_/view?usp=sharing)
+- [Denoising Diffusion Probabilistic Models](https://arxiv.org/abs/2006.11239)
+- [Hierarchical Text-Conditional Image Generation with CLIP Latents](https://arxiv.org/abs/2204.06125)
 
-#### 딥러닝 기반 추천 시스템의 기초
+#### 추천 시스템의 기초
 - [Slide]()
 
 #### 딥러닝 추천 시스템의 고급 기법
