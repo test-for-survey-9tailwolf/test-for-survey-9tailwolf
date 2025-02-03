@@ -48,7 +48,7 @@ permalink: /materials/
 - [POMO: Policy Optimization with Multiple Optima for Reinforcement Learning](https://arxiv.org/abs/2010.16011) 
 
 #### 생성모델의 이론적 이해 (GMM to VAE)
-- [Slide](https://drive.google.com/file/d/1zjuMDObLTxCkNDrVIgeze8AKO9j6sb59/view?usp=sharing)
+- [Slide](https://drive.google.com/file/d/1c4eZZYuZ9nGBg2WSIs6TTFbMWxhY_L0k/view?usp=sharing)
 - [Auto-Encoding Variational Bayes](https://arxiv.org/abs/1312.6114)
 
 #### 생성모델의 응용과 연구동향 (VAE to Diffusion) 
