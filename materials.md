@@ -52,7 +52,7 @@ permalink: /materials/
 - [Auto-Encoding Variational Bayes](https://arxiv.org/abs/1312.6114)
 
 #### 생성모델의 응용과 연구동향 (VAE to Diffusion) 
-- [Slide](https://drive.google.com/file/d/19I9bMtpFXCOGlRTnabfuLnxNgdiWcoJ_/view?usp=sharing)
+- [Slide](https://drive.google.com/file/d/1ToKN368Fhu40ypkoPSnEbKJBOw78tO3d/view?usp=sharing)
 - [Denoising Diffusion Probabilistic Models](https://arxiv.org/abs/2006.11239)
 - [Hierarchical Text-Conditional Image Generation with CLIP Latents](https://arxiv.org/abs/2204.06125)
 
