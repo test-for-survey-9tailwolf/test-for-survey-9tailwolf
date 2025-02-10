@@ -57,7 +57,7 @@ permalink: /materials/
 - [Hierarchical Text-Conditional Image Generation with CLIP Latents](https://arxiv.org/abs/2204.06125)
 
 #### 추천 시스템의 기초
-- [Slide]()
+- [Slide](https://drive.google.com/file/d/1pXfCmsks18CTCD62rLhDMzzV9G6hE8X2/view?usp=sharing)
 
 #### 딥러닝 추천 시스템의 고급 기법
 - [Slide]()
