@@ -60,13 +60,22 @@ permalink: /materials/
 - [Slide](https://drive.google.com/file/d/1pXfCmsks18CTCD62rLhDMzzV9G6hE8X2/view?usp=sharing)
 
 #### 딥러닝 추천 시스템의 고급 기법
-- [Slide]()
+- [Slide](https://drive.google.com/file/d/1DXwLdvNT88DY_BsiwBevwDfSCUrlurWv/view?usp=sharing)
+- [Neural Collaborative Filtering](https://arxiv.org/abs/1708.05031)
+- [Neural Attentive Session-based Recommendation](https://arxiv.org/abs/1711.04725)
+- [KGAT: Knowledge Graph Attention Network for Recommendation](https://arxiv.org/abs/1905.07854)
+- [DeepFM: A Factorization-Machine based Neural Network for CTR Prediction](https://arxiv.org/abs/1703.04247)
 
-#### Explainable AI
-- [Slide]()
+#### Explainable AI 기초
+- [Slide](https://drive.google.com/file/d/158MGDyNV5VzSjaJR54r_s8TrB9a2sH1d/view?usp=sharing)
+- [LIME: "Why Should I Trust You?": Explaining the Predictions of Any Classifier](http://arxiv.org/abs/1602.04938v3)
+- [SHAP: A Unified Approach to Interpreting Model Predictions](https://arxiv.org/abs/1705.07874v2)
+- [TreeSHAP: Consistent Individualized Feature Attribution for Tree Ensembles](https://arxiv.org/abs/1802.03888)
+- [DeepSHAP: Explaining a Series of Models by Propagating Shapley Values](https://arxiv.org/abs/2105.00108)
+- [Grad-CAM: Visual Explanations from Deep Networks via Gradient-based Localization](https://arxiv.org/abs/1610.02391)
 
-#### 최신 Explainable AI 기법과 연구 동향
-- [Slide]()
+#### Explainable AI 심화
+
 
 #### LLM Fine-tuning 특별 세미나
 - [Slide]()
