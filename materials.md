@@ -75,8 +75,12 @@ permalink: /materials/
 - [Grad-CAM: Visual Explanations from Deep Networks via Gradient-based Localization](https://arxiv.org/abs/1610.02391)
 
 #### Explainable AI 심화
-
+- [Slide](https://drive.google.com/file/d/1AsUJDqtdxSQw1C9zCb4KiP-2LGVkXdSK/view?usp=sharing)
+- [Network Dissection: Quantifying Interpretability of Deep Visual Representations](https://openaccess.thecvf.com/content_cvpr_2017/html/Bau_Network_Dissection_Quantifying_CVPR_2017_paper.html)
+- [Interpretability Beyond Feature Attribution: Quantitative Testing with Concept Activation Vectors (TCAV)](https://arxiv.org/abs/1711.11279)
+- [Deep Learning for Case-Based Reasoning through Prototypes: A Neural Network that Explains Its Predictions](https://arxiv.org/abs/1710.04806)
+- [This Looks Like That: Deep Learning for Interpretable Image Recognition](https://arxiv.org/abs/1806.10574)
 
 #### LLM Fine-tuning 특별 세미나
-- [Slide]()
+- 
 
