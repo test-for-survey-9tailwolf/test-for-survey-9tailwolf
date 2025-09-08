@@ -17,6 +17,12 @@
   letter-spacing: -1px;
   margin-bottom: 0;
   float: left;
+  font-weight: bold;
+
+  /* 가운데 정렬을 위해 추가합니다. */
+  display: block; /* a 태그는 inline 요소이므로 block으로 변경해야 정렬이 적용됩니다. */
+  text-align: center;
+  margin: 0 auto;
 
   @include media-query($on-palm) {
     padding-right: 45px;
@@ -27,6 +33,7 @@
     color: $site-title-color;
   }
 }
+
 
 .site-nav {
   position: absolute;
@@ -46,7 +53,7 @@
     width: 36px;
     height: 26px;
     line-height: 0;
-    padding-top: 10px;
+    padding-top: 0px;
     text-align: center;
 
     > svg path {
