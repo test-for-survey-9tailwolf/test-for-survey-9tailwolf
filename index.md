@@ -24,6 +24,9 @@ title:
         input[type="number"] {
             -moz-appearance: textfield;
         }
+        .info-table td:nth-child(2) {
+        text-align: center;         
+        }
 
         #submitBtn {
             display: block; width: 50%; max-width: 400px; margin: 40px auto; padding: 20px;
@@ -81,10 +84,14 @@ title:
     <h2><strong>기본 인적 사항</strong></h2>
     <table class="info-table">
         <tr>
-            <td><strong>나이</strong></td>
-            <td><div class="input-group"><input type="number" id="age"> 세</div></td>
+            <td><strong>생년월일</strong></td>
+            <td colspan="3">
+                <input type="text" id="birthdate" inputmode="numeric" maxlength="6" placeholder="예) 950909" style="width: 160px; padding: 5px;">
+            </td>
+        </tr>
+        <tr>
             <td><strong>성별</strong></td>
-            <td>
+            <td colspan="3">
                 <div class="radio-group">
                     <label><input type="radio" name="gender" value="male"> 남성</label>
                     <label><input type="radio" name="gender" value="female"> 여성</label>
@@ -93,9 +100,13 @@ title:
         </tr>
         <tr>
             <td><strong>신장</strong></td>
-            <td><div class="input-group"><input type="number" id="height"> cm</div></td>
+            <td>
+                <div class="input-group"><input type="number" id="height"> cm</div>
+            </td>
             <td><strong>체중</strong></td>
-            <td><div class="input-group"><input type="number" id="weight"> kg</div></td>
+            <td>
+                <div class="input-group"><input type="number" id="weight"> kg</div>
+            </td>
         </tr>
     </table>
 
@@ -326,31 +337,67 @@ title:
     // =======================================================================
     document.getElementById('submitBtn').addEventListener('click', () => {
         try {
-            // 1. 유효성 검사
-            const ageInput = document.getElementById('age').value;
+            // ======================================================
+            // 1. 입력값 가져오기
+            // ======================================================
+            const birthdateInput = document.getElementById('birthdate').value;
             const heightInput = document.getElementById('height').value;
             const weightInput = document.getElementById('weight').value;
             const genderRadio = document.querySelector('input[name="gender"]:checked');
 
-            if (!ageInput || !heightInput || !weightInput || !genderRadio) {
-                throw new Error('나이, 성별, 신장, 체중을 모두 정확히 입력해주세요.');
+            // ======================================================
+            // 2. 유효성 검사
+            // ======================================================
+            // 기본 정보 입력 여부 확인
+            if (!birthdateInput || !heightInput || !weightInput || !genderRadio) {
+                throw new Error('생년월일, 성별, 신장, 체중을 모두 입력해주세요.');
             }
-            const age = parseFloat(ageInput);
+            // 생년월일 형식(6자리 숫자) 확인
+            if (!/^\d{6}$/.test(birthdateInput)) {
+                throw new Error('생년월일을 6자리 숫자로 입력해주세요. (예: 950909)');
+            }
+
+            let year = parseInt(birthdateInput.substring(0, 2), 10);
+            const month = parseInt(birthdateInput.substring(2, 4), 10) - 1; // JS 월은 0-11
+            const day = parseInt(birthdateInput.substring(4, 6), 10);
+
+            // 2000년생 구분
+            const currentYearLastTwoDigits = new Date().getFullYear() % 100;
+            year += (year > currentYearLastTwoDigits) ? 1900 : 2000;
+
+            // Date 객체 생성
+            const birthDate = new Date(year, month, day);
+
+            // 👇 [추가] 유효한 날짜인지 확인
+            // 생성된 날짜의 월/일이 입력한 월/일과 다르면 존재하지 않는 날짜임
+            if (birthDate.getFullYear() !== year || birthDate.getMonth() !== month || birthDate.getDate() !== day) {
+                throw new Error('유효하지 않은 생년월일입니다. 날짜를 다시 확인해주세요.');
+            }
+
+            // 만 나이 계산
+            const today = new Date();
+            let age = today.getFullYear() - birthDate.getFullYear();
+            const m = today.getMonth() - birthDate.getMonth();
+            if (m < 0 || (m === 0 && today.getDate() < birthDate.getDate())) {
+                age--;
+            }
+            // 신장, 체중이 양수인지 확인
             const height = parseFloat(heightInput);
             const weight = parseFloat(weightInput);
-            if (isNaN(age) || age <= 0 || !Number.isInteger(age)) throw new Error('나이는 0보다 큰 정수로 입력해주세요.');
             if (isNaN(height) || height <= 0) throw new Error('신장은 0보다 큰 숫자로 입력해주세요.');
             if (isNaN(weight) || weight <= 0) throw new Error('체중은 0보다 큰 숫자로 입력해주세요.');
             
+            // 모든 설문 항목이 체크되었는지 확인
             const totalQuestions = 14;
             for (let i = 1; i <= totalQuestions; i++) {
+                // 오타 수정: `q$ {i}` -> `q${i}`
                 if (!document.querySelector(`input[name="q${i}"]:checked`)) {
-                    // ▼ [수정 1] 새로운 HTML 구조에 맞게 질문 텍스트를 찾는 로직
                     const qElement = document.querySelector(`input[name="q${i}"]`);
                     const qText = qElement.closest('.question-item').querySelector('.question-text').innerText.trim();
                     throw new Error(`'${qText}' 항목에 답변해주세요.`);
                 }
             }
+
 
             // 2. 기본 데이터 수집
             const basicInfo = {
