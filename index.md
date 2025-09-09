@@ -77,6 +77,7 @@ title:
         .options-group input[type="radio"] {
              display: none;
         }
+
     </style>
 </head>
 
@@ -452,14 +453,25 @@ title:
             const probabilities = softmax(logits);
 
             // 7. URL 쿼리 파라미터 생성 및 페이지 이동 (이전과 동일)
-            const params = new URLSearchParams();
-            params.append('age', basicInfo.age);
+const params = new URLSearchParams();
+            
+            // A. 기본 정보와 최종 확률 추가
+            params.append('age', age);
             params.append('gender', encodeURIComponent(basicInfo.gender.text));
             params.append('height', basicInfo.height);
             params.append('weight', basicInfo.weight);
+            params.append('birthdate', document.getElementById('birthdate').value); // DB 저장을 위해 생년월일 원본 추가
             params.append('p_te', probabilities.tae_eum.toFixed(4));
             params.append('p_se', probabilities.so_eum.toFixed(4));
             params.append('p_sy', probabilities.so_yang.toFixed(4));
+
+            // B. 14개 질문의 답변(value)을 모두 추가
+            for (let i = 1; i <= 14; i++) {
+                const answer = document.querySelector(`input[name="q${i}"]:checked`);
+                if (answer) {
+                    params.append(`q${i}`, answer.value);
+                }
+            }
 
             window.location.href = `./results?${params.toString()}`;
 
